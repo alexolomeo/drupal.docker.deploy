@@ -1,6 +1,6 @@
 #!/bin/sh
   
-echo "###Deploy Redhat###"
+echo "###  Deploy RedHat  ###"
 echo "Init creating ssh key to verify conectivity...."
 
 sudo dnf update -y
