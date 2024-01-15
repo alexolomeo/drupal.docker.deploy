@@ -7,7 +7,7 @@ sudo dnf update -y
 
 sudo dnf install -y ansible git
 
-ssh-keygen -q -b 2048 -t rsa -N "" -C "creating SSH" -f KEY-UBUNTU
+ssh-keygen -q -b 2048 -t rsa -N "" -C "creating SSH" -f KEY-REDHAT
 
 chmod 400 KEY-REDHAT
 
